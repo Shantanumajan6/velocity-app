@@ -1,13 +1,13 @@
 pipeline {
 	agent {
-			label "built-in"
+			label "slave-2"
 	}
 	
 	stages {
 		stage ("stage-1"){
 			
 			steps {
-						sh "yum install tree -y"
+						echo "this is q2"
 			}
 		
 		}
