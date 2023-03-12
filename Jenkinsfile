@@ -1,13 +1,13 @@
 pipeline {
 	agent {
-			label "built-in"
+			label "slave-2"
 	}
 	
 	stages {
 		stage ("stage-1"){
 			
 			steps {
-						echo "this is q1"
+exefwf
 			}
 		
 		}
