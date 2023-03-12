@@ -7,7 +7,7 @@ pipeline {
 		stage ("stage-1"){
 			
 			steps {
-						echo "this is q2"
+exefwf
 			}
 		
 		}
